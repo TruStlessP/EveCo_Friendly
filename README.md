@@ -8,6 +8,7 @@
 
 # Tracing Toxicity
 > Each product will have a specific ECO Friendlyness rating which will coorelate to the level of which the product can be recycled/re-used
+
  -Toxicity Ratings **X**-->Low Toxicity **Y**-->Medium Toxicity **Z**-->High Toxicity **S**-->NonToxic (Toxicity of Recycle Process)
  -WasteType Ratings **R**-->Recyclable **B**-->Biodegradable **N**-->NonBiodegradable
  *. **R000S**-->0% recycleable(NonTox) **B100X**-->100% Biodegradable(LowTox) **N000S**-->0% NonBiodegradable(NonTox)**(R000SB100XN000S)**
