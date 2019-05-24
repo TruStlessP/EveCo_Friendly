@@ -16,6 +16,20 @@ Each product will have a specific ECO Friendlyness rating which will coorelate t
 * **R060Y**->60% recycle(MedTox) **B010Z**->10% Degrade(HiTox) **N030X**->30% NonDegrade(LowTox) **R060YB010ZN030X**
  
  # Tracing Recycling 
-Each product will be transferred from brand to supplychain/consumer and then to a recycling plant that meets the criteria of the ECO Friendlyness rating
- When Recycling addresses recieve their designated products the brand in question will be given credit for being more ECO-Friendly
+Each product will be transferred from brand to supplychain/consumer and then to a recycling plant that meets the criteria of the ECO Friendlyness rating.
+
+A table of addresses will be stored in a decentralized DB (If time permits) 
+
+| Recycling Address | Rated Toxicity Type | 
+|:-------------:|:-------------:|
+| Hashed Address 1 | S |
+| Hashed Address 2 | X |
+| Hashed Address 3 | Y |
+| Hashed Address 4 | Z |
+
+ Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
+ * Hashed Address 1 can recieve/recycle products **R000SB100XN000S**
+ * Hashed Address 2 can recieve/recycle products **Non Valid/NaN**
+ * Hashed Address 3 can recieve/recycle products **R060YB010ZN030X**
+ * Hashed Address 4 can recieve/recycle products **R020ZB040N040X** && **R040ZB055ZN005Z**
 
