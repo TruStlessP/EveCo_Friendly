@@ -29,7 +29,9 @@ A table of addresses will be stored in a decentralized DB (If time permits)
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
  * Hashed Address 1 can recieve/recycle products **R000SB100XN000S**
- * Hashed Address 2 can recieve/recycle products **Non Valid/NaN**
+ * Hashed Address 2 can recieve/recycle products **NonValid/NaN**
  * Hashed Address 3 can recieve/recycle products **R060YB010ZN030X**
  * Hashed Address 4 can recieve/recycle products **R020ZB040N040X** && **R040ZB055ZN005Z**
+
+# Calculating EveCo_Friendlyness
 
