@@ -58,4 +58,4 @@ The products each address owns (including Recycling Addresses) can be redeemed b
 
 ## Calculating EveCo_Friendlyness
 
-Using the rate that both consumers and brands successfully hand off ownership of their products to the recycling addresses rough or percise metrics of ECO friendlyness can be achieved
+Using the rate that both consumers and brands successfully hand off ownership of their products to the recycling addresses rough or percise metrics of ECO friendlyness can be achieved. These calculations are performed by using the EveCo-InfoLabel and a weighted average system inwhich the app user can define what is important to them in order to determine the best brands according to what they individually value. 
