@@ -49,7 +49,7 @@ The products each address owns (including Recycling Addresses) can be redeemed b
 | RecAddr1 | S | ConsAddr1(1) | {'R000SB100XN000S'} |
 | RecAddr2 | X | NaN | No Recycle T-type X |
 | RecAddr3 | Y | ConsAddr2(1) | {'R060YB010ZN030X'} |
-| RecAddr1 | Z | {ConsAddr2(2),ConsAddr4(1)} | {'R020ZB040YN040X','R040ZB055ZN005Z'} |
+| RecAddr1 | Z | ConsAddr2(2), ConsAddr4(1) | {'R020ZB040YN040X', 'R040ZB055ZN005Z'} |
 
 
 # Calculating EveCo_Friendlyness
