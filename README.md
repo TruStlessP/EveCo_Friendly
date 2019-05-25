@@ -10,7 +10,7 @@ Each product will have a specific ECO Friendlyness rating which will coorelate t
 >Toxicity Ratings **X**->Low Toxicity **Y**->Medium Toxicity **Z**->High Toxicity **S**->NonToxic (Toxicity of Recycle Process)
 >WasteType Ratings **R**->Recyclable **B**-->Biodegradable **N**->NonBiodegradable
 * **R000S**->0% recycle(NonTox) **B100X**->100% Degrade(LowTox) **N000S**->0% NonDegrade(NonTox) **R000SB100XN000S**
-* **R020Z**->20% recycle(HiTox) **B040Y**->40% Degrade(MedTox) **N040X**->40% NonDegrade(LowTox) **R020ZB040N040X**
+* **R020Z**->20% recycle(HiTox) **B040Y**->40% Degrade(MedTox) **N040X**->40% NonDegrade(LowTox) **R020ZB040YN040X**
 * **R040Z**->40% recycle(HiTox) **B055Z**->55% Degrade(HiTox) **N005Z**->5% NonDegrade(HiTox) **R040ZB055ZN005Z**
 * **R060Y**->60% recycle(MedTox) **B010Z**->10% Degrade(HiTox) **N030X**->30% NonDegrade(LowTox) **R060YB010ZN030X**
  
@@ -30,16 +30,16 @@ A table of Consumer addresses will be stored in a decentralized DB
 
 | Consumer Address | Products Owned | 
 |:-------------:|:-------------:|
-| Hashed_Address_1 | **{R000SB100XN000S}** |
-| Hashed_Address_2 | **{R060YB010ZN030X}** |
-| Hashed_Address_3 | **{R020ZB040N040X}** |
-| Hashed_Address_4 | **{R040ZB055ZN005Z}** |
+| Hashed_Address_1 | {R000SB100XN000S, '..'} |
+| Hashed_Address_2 | {R060YB010ZN030X, '..'} |
+| Hashed_Address_3 | {R020ZB040YN040X, '..'} |
+| Hashed_Address_4 | {R040ZB055ZN005Z, '..'} |
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
  * Hashed Address 1 can recieve/recycle products **R000SB100XN000S**
  * Hashed Address 2 can recieve/recycle products **NonValid/NaN**
  * Hashed Address 3 can recieve/recycle products **R060YB010ZN030X**
- * Hashed Address 4 can recieve/recycle products **R020ZB040N040X** && **R040ZB055ZN005Z**
+ * Hashed Address 4 can recieve/recycle products **R020ZB040YN040X** && **R040ZB055ZN005Z**
 
 # Calculating EveCo_Friendlyness
 
