@@ -23,25 +23,25 @@ A table of Recycling facility addresses will be stored in a decentralized DB
 
 | Recycling Address | Rated Toxicity Type | 
 |:-------------:|:-------------:|
-| Hashed_Address_1 | S |
-| Hashed_Address_2 | X |
-| Hashed_Address_3 | Y |
-| Hashed_Address_4 | Z |
+| RecAddr1 | S |
+| RecAddr2 | X |
+| RecAddrr3 | Y |
+| RecAddr4 | Z |
 
 A table of Consumer addresses will be stored in a decentralized DB 
 
 | Consumer Address | Products Owned | 
 |:-------------:|:-------------:|
-| Hashed_Address_1 | {R000SB100XN000S, '..'} |
-| Hashed_Address_2 | {R060YB010ZN030X, '..'} |
-| Hashed_Address_3 | {R020ZB040YN040X, '..'} |
-| Hashed_Address_4 | {R040ZB055ZN005Z, '..'} |
+| ConsAddr1 | {R000SB100XN000S} |
+| ConsAddr2 | {R060YB010ZN030X,R020ZB040YN040X} |
+| ConsAddr3 | {'NaN'} |
+| ConsAddr4 | {R040ZB055ZN005Z} |
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
- * Hashed Address 1 can recieve/recycle products **R000SB100XN000S**
- * Hashed Address 2 can recieve/recycle products **NonValid/NaN**
- * Hashed Address 3 can recieve/recycle products **R060YB010ZN030X**
- * Hashed Address 4 can recieve/recycle products **R020ZB040YN040X** && **R040ZB055ZN005Z**
+ * RecAddr1 can recieve/recycle products from ConsAddr1{1} productInfo = **R000SB100XN000S**
+ * RecAddr2 can recieve/recycle products from **NonValid/NaN**
+ * RecAddr3 can recieve/recycle products from ConsAddr2{1} productInfo= **R060YB010ZN030X**
+ * RecAddr4 can recieve/recycle products from ConsAddr2{2} && ConsAddr4{1} productInfo= **R020ZB040YN040X && R040ZB055ZN005Z**
 
 # Calculating EveCo_Friendlyness
 
