@@ -17,11 +17,14 @@ and also gives proportions that are or are-not biodegradeable of the remaining u
 | | | High-Toxicity | **Z** | 
 
 #### Generating EveCO-InfoLabels
-* **R000S**->0% recycle(NonTox) **B100X**->100% Degrade(LowTox) **N000S**->0% NonDegrade(NonTox) **R000SB100XN000S**
-* **R020Z**->20% recycle(HiTox) **B040Y**->40% Degrade(MedTox) **N040X**->40% NonDegrade(LowTox) **R020ZB040YN040X**
-* **R040Z**->40% recycle(HiTox) **B055Z**->55% Degrade(HiTox) **N005Z**->5% NonDegrade(HiTox) **R040ZB055ZN005Z**
-* **R060Y**->60% recycle(MedTox) **B010Z**->10% Degrade(HiTox) **N030X**->30% NonDegrade(LowTox) **R060YB010ZN030X**
- 
+
+| Recyclable Percent | Recycling Process Toxicity | Percent Biodegradable | Toxicity |  Percent Non-Biodegradeable | Toxicity | EveCO-InfoLabels |
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| R000 | S | B100 | X | N000 | S | R000SB100XN000S |
+| R020 | Z | B040 | Y | N040 | X | R020ZB040YN040X |
+| R040 | Z | B055 | Z | N005 | Z | R040ZB055ZN005Z |
+| R060 | Y | B010 | Z | N030 | x | R060YB010ZN030X |
+
 ## Tracing Recycling 
 Each product will be transferred from brand to supplychain/consumer and then to a recycling plant that meets the criteria of the ECO Friendlyness rating.
 
