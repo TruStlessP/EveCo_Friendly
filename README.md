@@ -11,10 +11,10 @@ and also gives proportions that are or are-not biodegradeable of the remaining u
 
 | WasteType | Rating Symbol | Toxicity | Rating Symbol | 
 | -------------:|:-------------:| -------------:|:-------------:|
-| Recyclable | **R** | Non-Toxic | **S** | 
-| Biodegradable | **B** | Low-Toxicity | **X** | 
-| NonBiodegradable | **N** | Medium-Toxicity | **Y** | 
-| | | High-Toxicity | **Z** | 
+| Recyclable | R | Non-Toxic | S | 
+| Biodegradable | B | Low-Toxicity | X | 
+| NonBiodegradable | N | Medium-Toxicity | Y | 
+| | | High-Toxicity | Z | 
 
 #### Generating EveCO-InfoLabels
 
