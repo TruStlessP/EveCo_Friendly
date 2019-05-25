@@ -29,28 +29,28 @@ A table of Recycling facility addresses will be stored in a decentralized DB
 
 | Recycling Address | Recyclable Toxicity Type | 
 | -------------:|:-------------:|
-| RecAddr1 | S |
-| RecAddr2 | X |
-| RecAddr3 | Y |
-| RecAddr4 | Z |
+| RecyclingAddr1 | S |
+| RecyclingAddr2 | X |
+| RecyclingAddr3 | Y |
+| RecyclingAddr4 | Z |
 
 The products each address owns (including Recycling Addresses) can be redeemed by the getProductsByOwner() function (DeveryERC721)
 
 | Consumer Address | Products Owned (productInfo)| 
 | -------------:| -------------:|
-| ConsAddr1 | {'R000SB100XN000S'} |
-| ConsAddr2 | {'R060YB010ZN030X', 'R020ZB040YN040X'} |
-| ConsAddr3 | {'NaN'} |
-| ConsAddr4 | {'R040ZB055ZN005Z'} |
+| ConsumerAddr1 | {'R000SB100XN000S'} |
+| ConsumerAddr2 | {'R060YB010ZN030X', 'R020ZB040YN040X'} |
+| ConsumerAddr3 | {'NaN'} |
+| ConsumerAddr4 | {'R040ZB055ZN005Z'} |
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
  
 | Recycling Address Reciever | Consumer Address Sender | Products Recycled |   
 | -------------:| -------------:| -------------:|
-| RecAddr1 | ConsAddr1(1) | {'R000SB100XN000S'} |
-| RecAddr2 | NaN | No Recyclable Toxicity Type X |
-| RecAddr3 | ConsAddr2(1) | {'R060YB010ZN030X'} |
-| RecAddr1 | ConsAddr2(2), ConsAddr4(1) | {'R020ZB040YN040X', 'R040ZB055ZN005Z'} |
+| RecyclingAddr1 | ConsumerAddr1(1) | {'R000SB100XN000S'} |
+| RecyclingAddr2 | NaN | No Recyclable Toxicity Type X |
+| RecyclingAddr3 | ConsumerAddr2(1) | {'R060YB010ZN030X'} |
+| RecyclingAddr1 | ConsumerAddr2(2), ConsumerAddr4(1) | {'R020ZB040YN040X', 'R040ZB055ZN005Z'} |
 
 
 ## Calculating EveCo_Friendlyness
