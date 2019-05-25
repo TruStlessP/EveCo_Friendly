@@ -30,7 +30,7 @@ A table of Recycling facility addresses will be stored in a decentralized DB
 | -------------:|:-------------:|
 | RecAddr1 | S |
 | RecAddr2 | X |
-| RecAddrr3 | Y |
+| RecAddr3 | Y |
 | RecAddr4 | Z |
 
 The products each address owns (including Recycling Addresses) can be redeemed by the getProductsByOwner() function (DeveryERC721)
