@@ -48,7 +48,7 @@ The products each address owns (including Recycling Addresses) can be redeemed b
 | Recycling Address Reciever | Consumer Address Sender | Products Recycled |   
 | -------------:| -------------:| -------------:|
 | RecAddr1 | ConsAddr1(1) | {'R000SB100XN000S'} |
-| RecAddr2 | NaN | No Recycle T-type X |
+| RecAddr2 | NaN | No Recyclable Toxicity Type X |
 | RecAddr3 | ConsAddr2(1) | {'R060YB010ZN030X'} |
 | RecAddr1 | ConsAddr2(2), ConsAddr4(1) | {'R020ZB040YN040X', 'R040ZB055ZN005Z'} |
 
