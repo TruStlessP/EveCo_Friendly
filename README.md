@@ -43,10 +43,14 @@ The products each address owns (including Recycling Addresses) can be redeemed b
 | ConsAddr4 | {'R040ZB055ZN005Z'} |
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
- * RecAddr1 can recieve/recycle products from ConsAddr1{1} productInfo = **R000SB100XN000S**
- * RecAddr2 can recieve/recycle products from **NaN**
- * RecAddr3 can recieve/recycle products from ConsAddr2{1} productInfo= **R060YB010ZN030X**
- * RecAddr4 can recieve/recycle products from ConsAddr2{2} && ConsAddr4{1} productInfo= **R020ZB040YN040X && R040ZB055ZN005Z**
+ 
+| Recycling Address Reciever | Expected Recycling T-Type | Consumer Address Sender | Products |   
+| -------------:| -------------:| -------------:| -------------:|
+| RecAddr1 | S | ConsAddr1(1) | {'R000SB100XN000S'} |
+| RecAddr2 | X | NaN | No Recycle T-type X |
+| RecAddr3 | Y | ConsAddr2(1) | {'R060YB010ZN030X'} |
+| RecAddr1 | Z | {ConsAddr2(2),ConsAddr4(1)} | {'R020ZB040YN040X','R040ZB055ZN005Z'} |
+
 
 # Calculating EveCo_Friendlyness
 
