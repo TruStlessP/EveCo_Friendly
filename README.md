@@ -28,7 +28,7 @@ A table of Recycling facility addresses will be stored in a decentralized DB
 | RecAddrr3 | Y |
 | RecAddr4 | Z |
 
-A table of Consumer addresses will be stored in a decentralized DB 
+The products each address owns can be redeemed by the getallproducts function (DeveryERC721)
 
 | Consumer Address | Products Owned | 
 | -------------:| -------------:|
