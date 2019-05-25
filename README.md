@@ -22,7 +22,7 @@ Each product will be transferred from brand to supplychain/consumer and then to 
 A table of Recycling facility addresses will be stored in a decentralized DB  
 
 | Recycling Address | Rated Toxicity Type | 
-|:-------------:|:-------------:|
+| -------------:|:-------------:|
 | RecAddr1 | S |
 | RecAddr2 | X |
 | RecAddrr3 | Y |
@@ -31,11 +31,11 @@ A table of Recycling facility addresses will be stored in a decentralized DB
 A table of Consumer addresses will be stored in a decentralized DB 
 
 | Consumer Address | Products Owned | 
-|:-------------:|:-------------:|
-| ConsAddr1 | {R000SB100XN000S} |
-| ConsAddr2 | {R060YB010ZN030X,R020ZB040YN040X} |
+| -------------:| -------------:|
+| ConsAddr1 | {'R000SB100XN000S'} |
+| ConsAddr2 | {'R060YB010ZN030X', 'R020ZB040YN040X'} |
 | ConsAddr3 | {'NaN'} |
-| ConsAddr4 | {R040ZB055ZN005Z} |
+| ConsAddr4 | {'R040ZB055ZN005Z'} |
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
  * RecAddr1 can recieve/recycle products from ConsAddr1{1} productInfo = **R000SB100XN000S**
