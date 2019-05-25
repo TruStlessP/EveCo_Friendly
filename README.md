@@ -53,7 +53,7 @@ The products each address owns (including Recycling Addresses) can be redeemed b
 | RecyclingAddr1 | ConsumerAddr1(1) | {'R000SB100XN000S'} |
 | RecyclingAddr2 | NaN | No Recyclable Toxicity Type X |
 | RecyclingAddr3 | ConsumerAddr2(1) | {'R060YB010ZN030X'} |
-| RecyclingAddr1 | ConsumerAddr2(2), ConsumerAddr4(1) | {'R020ZB040YN040X', 'R040ZB055ZN005Z'} |
+| RecyclingAddr4 | ConsumerAddr2(2), ConsumerAddr4(1) | {'R020ZB040YN040X', 'R040ZB055ZN005Z'} |
 
 
 ## Calculating EveCo_Friendlyness
