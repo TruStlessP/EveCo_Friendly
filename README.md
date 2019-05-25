@@ -36,7 +36,7 @@ A table of Recycling facility addresses will be stored in a decentralized DB
 
 The products each address owns (including Recycling Addresses) can be redeemed by the getProductsByOwner() function (DeveryERC721)
 
-| Consumer Address | Products Owned | 
+| Consumer Address | Products Owned (productInfo)| 
 | -------------:| -------------:|
 | ConsAddr1 | {'R000SB100XN000S'} |
 | ConsAddr2 | {'R060YB010ZN030X', 'R020ZB040YN040X'} |
