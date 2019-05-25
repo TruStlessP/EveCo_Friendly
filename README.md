@@ -27,7 +27,7 @@ Each product will be transferred from brand to supplychain/consumer and then to 
 
 A table of Recycling facility addresses will be stored in a decentralized DB  
 
-| Recycling Address | Rated Toxicity Type | 
+| Recycling Address | Recyclable Toxicity Type | 
 | -------------:|:-------------:|
 | RecAddr1 | S |
 | RecAddr2 | X |
