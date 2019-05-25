@@ -7,8 +7,10 @@ EveCo_Friendly is a Devery app that will give consumers more transparency into t
 
 # Tracing Toxicity
 Each product will have a specific ECO Friendlyness rating which will coorelate to the level of which the product can be recycled/re-used
->Toxicity Ratings **X**->Low Toxicity **Y**->Medium Toxicity **Z**->High Toxicity **S**->NonToxic (Toxicity of Recycle Process)
+>Toxicity Ratings **X**->Low Toxicity **Y**->Medium Toxicity **Z**->High Toxicity **S**->NonToxic (Recycle Process Toxicity)
+
 >WasteType Ratings **R**->Recyclable **B**-->Biodegradable **N**->NonBiodegradable
+
 * **R000S**->0% recycle(NonTox) **B100X**->100% Degrade(LowTox) **N000S**->0% NonDegrade(NonTox) **R000SB100XN000S**
 * **R020Z**->20% recycle(HiTox) **B040Y**->40% Degrade(MedTox) **N040X**->40% NonDegrade(LowTox) **R020ZB040YN040X**
 * **R040Z**->40% recycle(HiTox) **B055Z**->55% Degrade(HiTox) **N005Z**->5% NonDegrade(HiTox) **R040ZB055ZN005Z**
