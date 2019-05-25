@@ -39,7 +39,7 @@ A table of Consumer addresses will be stored in a decentralized DB
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
  * RecAddr1 can recieve/recycle products from ConsAddr1{1} productInfo = **R000SB100XN000S**
- * RecAddr2 can recieve/recycle products from **NonValid/NaN**
+ * RecAddr2 can recieve/recycle products from **NaN**
  * RecAddr3 can recieve/recycle products from ConsAddr2{1} productInfo= **R060YB010ZN030X**
  * RecAddr4 can recieve/recycle products from ConsAddr2{2} && ConsAddr4{1} productInfo= **R020ZB040YN040X && R040ZB055ZN005Z**
 
