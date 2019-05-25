@@ -1,9 +1,8 @@
 # EveCo_Friendly
 
 
-Many brands generate increase profits and build their prestige around marketing which claims they are ECO-friendly.
-EveCo_Friendly is an devery hackathon app that will use the devery protocol to give consumers more transparency into the status
-of individual brands and their product portfolio's overall ECO friendlyness. Also if time permits it will seek to explore using traceability powered by devery to enable both consumers and brands to be held accountable for their recycling.
+Many brands generate increased profits and build their prestige around marketing which claims they are ECO-friendly.
+EveCo_Friendly is a Devery app that will give consumers more transparency into the status of individual brands and their product portfolio's overall ECO friendlyness. The app will use the owner permissions and deveryjs toolset to obtain traceability enabling both consumers and brands to be held accountable for their recycling.
 
 
 # Tracing Toxicity
@@ -18,14 +17,23 @@ Each product will have a specific ECO Friendlyness rating which will coorelate t
  # Tracing Recycling 
 Each product will be transferred from brand to supplychain/consumer and then to a recycling plant that meets the criteria of the ECO Friendlyness rating.
 
-A table of addresses will be stored in a decentralized DB (If time permits) 
+A table of Recycling facility addresses will be stored in a decentralized DB  
 
 | Recycling Address | Rated Toxicity Type | 
 |:-------------:|:-------------:|
-| Hashed Address 1 | S |
-| Hashed Address 2 | X |
-| Hashed Address 3 | Y |
-| Hashed Address 4 | Z |
+| Hashed_Address_1 | S |
+| Hashed_Address_2 | X |
+| Hashed_Address_3 | Y |
+| Hashed_Address_4 | Z |
+
+A table of Consumer addresses will be stored in a decentralized DB 
+
+| Consumer Address | Products Owned | 
+|:-------------:|:-------------:|
+| Hashed_Address_1 | **{R000SB100XN000S}** |
+| Hashed_Address_2 | **{R060YB010ZN030X}** |
+| Hashed_Address_3 | **{R020ZB040N040X}** |
+| Hashed_Address_4 | **{R040ZB055ZN005Z}** |
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
  * Hashed Address 1 can recieve/recycle products **R000SB100XN000S**
@@ -35,3 +43,4 @@ A table of addresses will be stored in a decentralized DB (If time permits)
 
 # Calculating EveCo_Friendlyness
 
+Using the rate that both consumers and brands successfully hand off ownership of their products to the recycling addresses rough or percise metrics of ECO friendlyness can be achieved
