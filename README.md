@@ -44,7 +44,7 @@ The products each address owns (including Recycling Addresses) can be redeemed b
 
  Recycling Addresses will be given permission to accept ownership only of products that they have the ability to properly process.
  
-| Recycling Address Reciever | Expected Recycling T-Type | Consumer Address Sender | Products |   
+| Recycling Address Reciever | Expected Recycling T-Type | Consumer Address Sender | Products Recycled |   
 | -------------:| -------------:| -------------:| -------------:|
 | RecAddr1 | S | ConsAddr1(1) | {'R000SB100XN000S'} |
 | RecAddr2 | X | NaN | No Recycle T-type X |
