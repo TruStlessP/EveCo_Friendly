@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "baseUrl": "./src",
+      "jsx": "react",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "target": "es6",
+      "paths": {
+        "@organisms/*": ["./components/organisms/*"],
+      },
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}
